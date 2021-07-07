@@ -1,0 +1,36 @@
+/* Write your CSS code in this file */
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(31, 149, 179);
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+h1 {
+    display: flex;
+    background-color: aliceblue;
+    padding: 2rem;
+    text-align: center;
+}
+
+.search-form {
+    flex: 1;
+    display: flex;
+    padding: 1rem;
+
+}
+.search-form input {
+    padding:5px;
+    border: none;
+    border-color:2px #44b;
+    flex: 1;
+}
+
+.search-form button {
+    background-color: rgb(34, 117, 71);
+    color: white;
+    padding: 1rem;
+}
+
